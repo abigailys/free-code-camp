@@ -1,4 +1,4 @@
 # My GitHub Learning Notes
 - Created my first repository.
-- Added a html file from FCC lab.
-- 
+- Uploaded my recipe lab exercise html file.
+- Learned about commits and editing files.
