@@ -6,5 +6,7 @@
 - VS Code and Git
     - Changes → files you modified but haven’t staged.
     - Staged Changes (+) → files you selected for the next commit.
-    - Commit → saves the snapshot in local Git history.
+    - Commit (✔) → saves the snapshot in local Git history.
     - Push → updates GitHub with your local commits.
+    - Sync → Push and pull together.
+
