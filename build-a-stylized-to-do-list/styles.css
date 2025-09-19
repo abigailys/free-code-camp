@@ -1,0 +1,54 @@
+** start of styles.css **
+
+body {
+  background-color: papayawhip;
+}
+
+h1{
+  text-align: center;
+}
+
+.todo-list{
+  list-style-type: none;
+  line-height: 2;
+}
+
+.todo-list > li {
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 80%;
+  border: 1px solid orange;
+  border-radius: 10px;
+  background-color: navajowhite;
+}
+
+.sub-item {
+  list-style-type: disc;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: maroon;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: sienna;
+}
+
+a:focus {
+  outline: 2px sienna;
+}
+
+a:active {
+  color: tan;
+}
+
+** end of styles.css **
+
