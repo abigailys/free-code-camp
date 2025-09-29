@@ -1,0 +1,63 @@
+input:focus, textarea:focus {
+  border-color: blue;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+  border: 2px solid green;
+}
+
+.radio-group input[type="radio"]:checked {
+  border: 2px solid purple;
+  background-color: purple;
+  box-shadow: 0 3px gray;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: purple;
+}
+
+input:first-of-type {
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 1.5em;
+}
+
+body{
+  font-size: 1.2rem;
+}
+
+.radio-group label {
+  display: inline;
+}
+
+fieldset {
+  margin-top: 10px;
+}
+
+#name, #email, #position, #message {
+  width: 95vw;
+  border-radius: 5px;
+}
+
+button {
+  margin: 20px auto;
+  font-size: 1.2rem;
+  width: 95vw;
+}
+
+button:hover {
+  background-color: rgb(82, 131, 43);
+  color: white;
+}
